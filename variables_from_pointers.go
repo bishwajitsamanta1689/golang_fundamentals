@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"reflect"
 )
 
@@ -13,7 +14,7 @@ func modifyCourse(course *string) string {
 	return *course
 }
 func main() {
-	name := "bishwajit"
+	name := os.Getenv("USERNAME")
 	course := "Docker Deep Dive"
 	module := 3.4
 
