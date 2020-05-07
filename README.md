@@ -1,2 +1,2 @@
 # golang_fundamentals
-Golang Fundamentals
+A Repository for Golang Fundamentals Programming.
